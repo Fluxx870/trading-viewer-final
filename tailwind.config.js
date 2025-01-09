@@ -1,11 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-/* favicon */ const icon=require('./public/.svn/logo');
+import('tailwindcss').Config
+/* const icon=require('./public/.svn/logo'); */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme: 
     extend: {
       keyframes: {
         greenFlash: {
